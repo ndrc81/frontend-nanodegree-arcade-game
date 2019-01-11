@@ -1,20 +1,22 @@
 # Classic Arcade Game Clone Project
 
-## Table of Contents
-
-- [Instructions](#instructions)
-- [Contributing](#contributing)
-
 ## Instructions
 
-Use this [rubric](https://review.udacity.com/#!/rubrics/15/view) for self-checking your submission.
+Download or close the repo to access the files to play the game.  Load the index.html file in your browser.
 
-Make sure the functions you write are **object-oriented** - either class functions (like `Player` and `Enemy`) or class prototype functions such as `Enemy.prototype.checkCollisions`. Also make sure that the keyword `this` is used appropriately within your class and class prototype functions to refer to the object the function is called upon.
 
-Your **README.md** file should be updated with instructions on both how to 1. Run and 2. Play your arcade game.
+## Gameplay
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+The goal of the game is to safely navigate your player across the road by avoiding any of the enemy bugs.
+
+To move your player press the arrow keys.  The game will end with a message once you have reached the river.
+
+
+## Dependencies
+
+This game makes use of ECMA 6 javascript and as result may not work on older browers.  Please use the most up-to-date version of Chrome, FireFox, Safari or Edge
+
 
 ## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+Feel free to use any part of this code EXCEPT for use in submitting your own assignments to Udacity.
